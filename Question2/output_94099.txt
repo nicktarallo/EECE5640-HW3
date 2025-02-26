@@ -1,0 +1,2 @@
+output_vec[4096.000000] = 4096.000000
+Time taken without AVX = 54.688372 ms

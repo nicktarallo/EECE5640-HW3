@@ -1,0 +1,5 @@
+output_vec_avx[4095] = 4096.000000
+Time taken with AVX = 10.109238 ms
+
+output_vec[4095] = 4096.000000
+Time taken without AVX = 62.305607 ms

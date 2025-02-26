@@ -1,0 +1,18 @@
+Q2.c: In function ‘matrix_vector_mult’:
+Q2.c:21:21: error: assignment of read-only location ‘*(output_vec + (sizetype)((long unsigned int)i * 4))’
+   21 |       output_vec[i] += (mat[i*n + j] * vec[j]);
+      |                     ^~
+Q2.c: In function ‘main’:
+Q2.c:47:22: warning: passing argument 1 of ‘matrix_vector_mult’ from incompatible pointer type [-Wincompatible-pointer-types]
+   47 |   matrix_vector_mult(mat, vec, output_vec, m, n);
+      |                      ^~~
+      |                      |
+      |                      float (*)[n]
+Q2.c:16:38: note: expected ‘const float *’ but argument is of type ‘float (*)[n]’
+   16 | void matrix_vector_mult(const float *mat, const float *vec, const float *output_vec, int m, int n) {
+      |                         ~~~~~~~~~~~~~^~~
+Q2.c:48:3: error: ‘end’ undeclared (first use in this function)
+   48 |   end = CLOCK();
+      |   ^~~
+Q2.c:48:3: note: each undeclared identifier is reported only once for each function it appears in
+/var/spool/slurmd/job94093/slurm_script: line 14: ./Q2: No such file or directory

@@ -1,0 +1,4 @@
+Dot product result = 4096.000000 
+The total time for matrix multiplication with AVX = 0.005713 ms
+Dot product result = 4096.000000 
+The total time for matrix multiplication without AVX = 0.015963 ms

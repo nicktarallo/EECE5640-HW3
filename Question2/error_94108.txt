@@ -1,0 +1,6 @@
+Q2.c: In function ‘matrix_vector_mult_avx512f’:
+Q2.c:34:15: warning: implicit declaration of function ‘__mm512_setzero_ps’; did you mean ‘_mm512_setzero_ps’? [-Wimplicit-function-declaration]
+   34 |     sum_vec = __mm512_setzero_ps();
+      |               ^~~~~~~~~~~~~~~~~~
+      |               _mm512_setzero_ps
+Q2.c:34:15: error: incompatible types when assigning to type ‘__m512’ {aka ‘__vector(16) float’} from type ‘int’

@@ -1,0 +1,6 @@
+Q2.c: In function ‘main’:
+Q2.c:48:3: error: ‘end’ undeclared (first use in this function)
+   48 |   end = CLOCK();
+      |   ^~~
+Q2.c:48:3: note: each undeclared identifier is reported only once for each function it appears in
+/var/spool/slurmd/job94098/slurm_script: line 14: ./Q2: No such file or directory

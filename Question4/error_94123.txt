@@ -1,0 +1,14 @@
+Q4.c: In function ‘main’:
+Q4.c:31:18: error: expected ‘;’ before ‘cblas_sgemm’
+   31 |   start = CLOCK()
+      |                  ^
+      |                  ;
+   32 |   // Perform matrix multiplication using cblas_sgemm
+   33 |   cblas_sgemm(CblasRowMajor, CblasNoTrans, CblasNoTrans, m, n, k, 1.0f, A, k, B, n, 0.0f, C, n);
+      |   ~~~~~~~~~~~     
+Q4.c:34:19: error: expected ‘;’ before ‘total’
+   34 |   finish = CLOCK()
+      |                   ^
+      |                   ;
+   35 |   total = finish - start;
+      |   ~~~~~            

@@ -1,0 +1,6 @@
+Q2.c: In function ‘main’:
+Q2.c:56:39: error: ‘output_vec’ undeclared (first use in this function); did you mean ‘output_vec_avx’?
+   56 |   matrix_vector_mult(&mat[0][0], vec, output_vec, m, n);
+      |                                       ^~~~~~~~~~
+      |                                       output_vec_avx
+Q2.c:56:39: note: each undeclared identifier is reported only once for each function it appears in
